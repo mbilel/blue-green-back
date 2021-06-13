@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 
 
 app.get('/color', (req,res) => {
-    res.send("Red")
+    res.send("Green")
 })
 
 app.listen(8080, () => {
